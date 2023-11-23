@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: lightseagreen;
+    box-sizing: border-box;
+    border: 2px solid rgb(25, 127, 179);
+    height: 100vh;
+    width: 100%;
+    
+}

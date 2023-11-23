@@ -1,0 +1,120 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    height:100vh;
+    width: 100%;
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.body{
+    position: absolute;
+
+    padding-top: 20px;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 20px solid #593161;
+    background-color: #593161;
+    border: none solid #593161;
+    border-radius: 10px;
+}
+#search{
+    padding-left: 10px;
+    height: 6vh;
+    border-radius: 20px;
+}
+.icon{  
+    margin-right: 5px;
+    padding: 0;
+    height: 20px;
+    align-items: center;
+    rotate: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid #dad3d3;
+
+    
+}
+.wicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 50px;
+    height: 12vh;
+    width: 70%;
+    border-radius: none;
+
+}
+.wdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+.temp{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.des{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.button {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.previous-button {
+    background-color: #ccc; 
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.previous-button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.next-button {
+    background-color: #ccc; 
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    ;
+}
+.next-button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
